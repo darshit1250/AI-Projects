@@ -11,7 +11,7 @@
   * RegEx - to find the pattern of stock symbol (e.g. NASDAQ:AMZN)
   * MatplotLib (https://github.com/matplotlib/matplotlib) - to visulize the closing prices of last 10 days.
 
-# Hurdles while implementation
+# Challenges faced while implementation
   * Used url query parameter to get the last 10 days data. The issue was if there is no news or less news of a particular day it returns previous days' news hence 
     we looked more deep to identify whether the data is of a current date or not.
   * While fetching data from finance.yahoo.com, faced many issues of null data and data in different format.
