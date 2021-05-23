@@ -1,5 +1,7 @@
-# Introduction
+# Web Scraping Using Python
   This is the beginner project of Web scraping using Python.
+  
+# Overview
   PRNewsWire(https://www.prnewswire.com/news-releases/news-releases-list/) has been scrapped to fetch the stock symbols from last 10 days news. 
   In order to fetch the stock symbols RegEx is used. After fetching the stock symbols, finance.yahoo.com is used to fetch the last 10 days prices.
   Generated visulization to show demonstrate the ups and downs.
