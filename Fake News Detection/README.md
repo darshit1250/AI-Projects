@@ -11,7 +11,7 @@
   
 # Objectives:
   1.	Our sole objective is to classify the news from the dataset as fake or true news.
-  2.	Extensive EDA of news.
+  2.	 Extensive EDA of news.
   3.	Selecting and building a powerful model.
   4.	Using the model to classify the news.
 
@@ -21,6 +21,8 @@
 # Files overview
   * FakeNewsClassifier_Capstone_Project_whole_text.ipynb
     * EDA has been performed on the dataset till now.
+  * detectTheLanguageAndAppendInCSV.ipynb
+    * After generating word cloud we found that english is not the only language used in the dataset, so we wrote a code to detect the language used and diversify the dataset. For this we added one column named 'Language' in the dataset and set it by default to 'e'. Now we used nltk library - more specifically TextCat - to identify the language and replaced the newly created column values.
 
 # Liberaries used in the project
   * ScikitLearn (https://github.com/scikit-learn/scikit-learn)
